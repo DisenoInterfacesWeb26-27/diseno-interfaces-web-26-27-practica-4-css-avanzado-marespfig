@@ -155,4 +155,20 @@ footer {
 
 @media (min-width: 700px) and (max-width: 1199px) { }
 
-@media (max-width: 699px) { }
+@media (max-width: 699px) {
+    h1 { font-size: 2.5em; }
+
+    .menu ul, .nav1 ul, .nav2 ul, aside h2, aside ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        list-style: none;
+    }
+
+    aside ul li a { text-decoration: none; }
+
+    .nav1, .nav2 { margin: 0.5em;}
+
+    section > * { text-align: center;}
+}
